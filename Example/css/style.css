@@ -1,0 +1,54 @@
+html , body {
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+main {
+    position: absolute;
+    padding: 20px;
+    text-align: center;
+    margin:0 auto;
+    width: 100%;
+    background-color: aquamarine;
+}
+
+
+
+header {
+    background-color: lightcyan;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+}
+
+
+
+div {
+    align-items: center;
+}
+
+.button-box {
+    background-color: lightblue;
+    padding: 7px;
+    margin: 0 auto;
+    text-align: center;
+    width: 150px;
+    border-radius: 10px;
+}
+
+#file-upload {
+    border-radius: 5px;
+    background-color: lightblue;
+    padding: 5px;
+    margin: 10px;
+    /* width: 150px; */
+}
+
